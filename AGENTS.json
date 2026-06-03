@@ -1,0 +1,616 @@
+{
+  "arize": [
+    {
+      "repo": "titan-agent-01-self-healing-customer-support",
+      "name": "Self-Healing Customer Support",
+      "desc": "Classifies tickets P0-P3, auto-resolves via KB, escalates repeats. Arize monitors resolution quality.",
+      "url": "https://github.com/juliushill42/titan-agent-01-self-healing-customer-support"
+    },
+    {
+      "repo": "titan-agent-02-fitness-coach-evolver",
+      "name": "Fitness Coach Evolver",
+      "desc": "Analyzes workout logs, adapts plans, predicts injury risk, progressive overload.",
+      "url": "https://github.com/juliushill42/titan-agent-02-fitness-coach-evolver"
+    },
+    {
+      "repo": "titan-agent-03-enterprise-policy-guardian",
+      "name": "Enterprise Policy Guardian",
+      "desc": "Enforces enterprise policies across systems, flags violations, auto-remediates.",
+      "url": "https://github.com/juliushill42/titan-agent-03-enterprise-policy-guardian"
+    },
+    {
+      "repo": "titan-agent-04-personal-finance-therapist",
+      "name": "Personal Finance Therapist",
+      "desc": "Analyzes spending, identifies patterns, coaches financial health decisions.",
+      "url": "https://github.com/juliushill42/titan-agent-04-personal-finance-therapist"
+    },
+    {
+      "repo": "titan-agent-05-code-review-qa",
+      "name": "Code Review QA",
+      "desc": "Automated code review scoring for quality, security, and test coverage.",
+      "url": "https://github.com/juliushill42/titan-agent-05-code-review-qa"
+    },
+    {
+      "repo": "titan-agent-06-mental-health-journal",
+      "name": "Mental Health Journal",
+      "desc": "Sentiment-aware journaling agent with mood tracking and coping recommendations.",
+      "url": "https://github.com/juliushill42/titan-agent-06-mental-health-journal"
+    },
+    {
+      "repo": "titan-agent-07-supply-chain-risk-forecaster",
+      "name": "Supply Chain Risk Forecaster",
+      "desc": "Predicts supply chain disruptions from signals, triggers preemptive actions.",
+      "url": "https://github.com/juliushill42/titan-agent-07-supply-chain-risk-forecaster"
+    },
+    {
+      "repo": "titan-agent-08-educational-tutor",
+      "name": "Educational Tutor",
+      "desc": "Adaptive tutoring agent that adjusts difficulty based on learner performance.",
+      "url": "https://github.com/juliushill42/titan-agent-08-educational-tutor"
+    },
+    {
+      "repo": "titan-agent-09-legal-contract-analyzer",
+      "name": "Legal Contract Analyzer",
+      "desc": "Extracts key clauses, flags risk, scores contracts against standard playbook.",
+      "url": "https://github.com/juliushill42/titan-agent-09-legal-contract-analyzer"
+    },
+    {
+      "repo": "titan-agent-10-creative-writing-coauthor",
+      "name": "Creative Writing CoAuthor",
+      "desc": "Collaborative writing agent with style consistency and narrative arc tracking.",
+      "url": "https://github.com/juliushill42/titan-agent-10-creative-writing-coauthor"
+    },
+    {
+      "repo": "titan-agent-11-hr-onboarding-wizard",
+      "name": "HR Onboarding Wizard",
+      "desc": "Orchestrates full employee onboarding \u2014 tasks, docs, access, check-ins.",
+      "url": "https://github.com/juliushill42/titan-agent-11-hr-onboarding-wizard"
+    },
+    {
+      "repo": "titan-agent-12-sustainability-impact-reporter",
+      "name": "Sustainability Impact Reporter",
+      "desc": "Measures carbon footprint, ESG metrics, generates compliance-ready reports.",
+      "url": "https://github.com/juliushill42/titan-agent-12-sustainability-impact-reporter"
+    },
+    {
+      "repo": "titanu-a06-arize-evaluation-judge",
+      "name": "Arize Evaluation Judge",
+      "desc": "LLM eval scoring: faithfulness, relevance, hallucination via Arize Phoenix.",
+      "url": "https://github.com/juliushill42/titanu-a06-arize-evaluation-judge"
+    },
+    {
+      "repo": "titanu-a16-arize-dataset-generator",
+      "name": "Arize Dataset Generator",
+      "desc": "Generates labeled eval datasets for LLM fine-tuning from Arize trace exports.",
+      "url": "https://github.com/juliushill42/titanu-a16-arize-dataset-generator"
+    },
+    {
+      "repo": "titanu-a26-arize-latency-optimizer",
+      "name": "Arize Latency Optimizer",
+      "desc": "Surfaces high-latency LLM traces in Arize, recommends optimizations.",
+      "url": "https://github.com/juliushill42/titanu-a26-arize-latency-optimizer"
+    }
+  ],
+  "elastic": [
+    {
+      "repo": "titan-agent-13-enterprise-knowledge-brain",
+      "name": "Enterprise Knowledge Brain",
+      "desc": "Semantic doc search, citation-backed answers, gap detection, auto-update suggestions.",
+      "url": "https://github.com/juliushill42/titan-agent-13-enterprise-knowledge-brain"
+    },
+    {
+      "repo": "titan-agent-14-smart-job-matcher",
+      "name": "Smart Job Matcher",
+      "desc": "Vector-matches candidates to roles using Elastic semantic search.",
+      "url": "https://github.com/juliushill42/titan-agent-14-smart-job-matcher"
+    },
+    {
+      "repo": "titan-agent-15-cyber-threat-hunter",
+      "name": "Cyber Threat Hunter",
+      "desc": "Hunts threats in Elastic SIEM logs, correlates IOCs, triggers playbooks.",
+      "url": "https://github.com/juliushill42/titan-agent-15-cyber-threat-hunter"
+    },
+    {
+      "repo": "titan-agent-16-personalized-news-forecaster",
+      "name": "Personalized News Forecaster",
+      "desc": "Personalizes news feed and forecasts trending topics via Elastic.",
+      "url": "https://github.com/juliushill42/titan-agent-16-personalized-news-forecaster"
+    },
+    {
+      "repo": "titan-agent-17-ecommerce-product-discovery",
+      "name": "Ecommerce Product Discovery",
+      "desc": "Semantic product search and recommendation using Elastic vector store.",
+      "url": "https://github.com/juliushill42/titan-agent-17-ecommerce-product-discovery"
+    },
+    {
+      "repo": "titan-agent-18-clinical-trial-navigator",
+      "name": "Clinical Trial Navigator",
+      "desc": "Matches patients to trials using Elastic search over clinical criteria.",
+      "url": "https://github.com/juliushill42/titan-agent-18-clinical-trial-navigator"
+    },
+    {
+      "repo": "titan-agent-19-real-estate-market-intelligence",
+      "name": "Real Estate Market Intelligence",
+      "desc": "Analyzes property market signals, forecasts pricing trends.",
+      "url": "https://github.com/juliushill42/titan-agent-19-real-estate-market-intelligence"
+    },
+    {
+      "repo": "titan-agent-20-legal-research-superagent",
+      "name": "Legal Research SuperAgent",
+      "desc": "Deep legal research across case law and statutes via Elastic.",
+      "url": "https://github.com/juliushill42/titan-agent-20-legal-research-superagent"
+    },
+    {
+      "repo": "titan-agent-21-recipe-nutrition-optimizer",
+      "name": "Recipe Nutrition Optimizer",
+      "desc": "Finds and optimizes recipes by nutritional goals using Elastic.",
+      "url": "https://github.com/juliushill42/titan-agent-21-recipe-nutrition-optimizer"
+    },
+    {
+      "repo": "titan-agent-22-log-anomaly-detective",
+      "name": "Log Anomaly Detective",
+      "desc": "Z-score + IQR anomaly detection on Elastic log streams.",
+      "url": "https://github.com/juliushill42/titan-agent-22-log-anomaly-detective"
+    },
+    {
+      "repo": "titan-agent-23-social-media-sentiment-strategist",
+      "name": "Social Media Sentiment Strategist",
+      "desc": "Real-time sentiment analysis and strategy recommendations.",
+      "url": "https://github.com/juliushill42/titan-agent-23-social-media-sentiment-strategist"
+    },
+    {
+      "repo": "titan-agent-24-historical-archive-explorer",
+      "name": "Historical Archive Explorer",
+      "desc": "Semantic search over historical archives with timeline synthesis.",
+      "url": "https://github.com/juliushill42/titan-agent-24-historical-archive-explorer"
+    },
+    {
+      "repo": "titanu-a01-elastic-anomaly-detector",
+      "name": "Elastic Anomaly Detector",
+      "desc": "Statistical anomaly detection on Elastic metrics with auto-alerting.",
+      "url": "https://github.com/juliushill42/titanu-a01-elastic-anomaly-detector"
+    },
+    {
+      "repo": "titanu-a10-api-gateway-multiplexer",
+      "name": "API Gateway Multiplexer",
+      "desc": "Multiplexes API requests across Elastic clusters with circuit breaking.",
+      "url": "https://github.com/juliushill42/titanu-a10-api-gateway-multiplexer"
+    },
+    {
+      "repo": "titanu-a11-elastic-threat-isolator",
+      "name": "Elastic Threat Isolator",
+      "desc": "Detects and quarantines threat signals in Elastic SIEM.",
+      "url": "https://github.com/juliushill42/titanu-a11-elastic-threat-isolator"
+    },
+    {
+      "repo": "titanu-a18-global-telemetry-sink",
+      "name": "Global Telemetry Sink",
+      "desc": "Aggregates OpenTelemetry spans/metrics/logs into Elastic APM.",
+      "url": "https://github.com/juliushill42/titanu-a18-global-telemetry-sink"
+    },
+    {
+      "repo": "titanu-a21-elastic-cluster-balancer",
+      "name": "Elastic Cluster Balancer",
+      "desc": "Auto-rebalances shard distribution and replica allocation.",
+      "url": "https://github.com/juliushill42/titanu-a21-elastic-cluster-balancer"
+    },
+    {
+      "repo": "titanu-a29-mcp-load-balancer",
+      "name": "MCP Load Balancer",
+      "desc": "Health-aware load balancing across Elastic MCP backends.",
+      "url": "https://github.com/juliushill42/titanu-a29-mcp-load-balancer"
+    }
+  ],
+  "fivetran": [
+    {
+      "repo": "titan-agent-25-autonomous-pipeline-orchestrator",
+      "name": "Autonomous Pipeline Orchestrator",
+      "desc": "Monitors pipelines, detects drift/failures, reroutes, backfills, SLA alerts.",
+      "url": "https://github.com/juliushill42/titan-agent-25-autonomous-pipeline-orchestrator"
+    },
+    {
+      "repo": "titan-agent-26-real-time-bi-agent",
+      "name": "Real-Time BI Agent",
+      "desc": "Live BI queries and dashboard refresh via Fivetran-synced data.",
+      "url": "https://github.com/juliushill42/titan-agent-26-real-time-bi-agent"
+    },
+    {
+      "repo": "titan-agent-27-compliance-data-auditor",
+      "name": "Compliance Data Auditor",
+      "desc": "Audits Fivetran pipelines for GDPR/HIPAA/SOC2 compliance violations.",
+      "url": "https://github.com/juliushill42/titan-agent-27-compliance-data-auditor"
+    },
+    {
+      "repo": "titan-agent-28-multi-source-customer-360",
+      "name": "Multi-Source Customer 360",
+      "desc": "Unifies customer data from multiple sources into a 360 profile.",
+      "url": "https://github.com/juliushill42/titan-agent-28-multi-source-customer-360"
+    },
+    {
+      "repo": "titan-agent-29-predictive-inventory-replenisher",
+      "name": "Predictive Inventory Replenisher",
+      "desc": "Forecasts inventory needs and triggers Fivetran replenishment pipelines.",
+      "url": "https://github.com/juliushill42/titan-agent-29-predictive-inventory-replenisher"
+    },
+    {
+      "repo": "titan-agent-30-marketing-attribution-analyst",
+      "name": "Marketing Attribution Analyst",
+      "desc": "Multi-touch attribution modeling across Fivetran marketing sources.",
+      "url": "https://github.com/juliushill42/titan-agent-30-marketing-attribution-analyst"
+    },
+    {
+      "repo": "titan-agent-31-healthcare-claims-harmonizer",
+      "name": "Healthcare Claims Harmonizer",
+      "desc": "Harmonizes claims data across payers using Fivetran connectors.",
+      "url": "https://github.com/juliushill42/titan-agent-31-healthcare-claims-harmonizer"
+    },
+    {
+      "repo": "titan-agent-32-financial-close-automation",
+      "name": "Financial Close Automation",
+      "desc": "Automates month-end close reconciliation via Fivetran data pipelines.",
+      "url": "https://github.com/juliushill42/titan-agent-32-financial-close-automation"
+    },
+    {
+      "repo": "titan-agent-33-personal-expense-aggregator",
+      "name": "Personal Expense Aggregator",
+      "desc": "Aggregates expenses across sources, categorizes, flags anomalies.",
+      "url": "https://github.com/juliushill42/titan-agent-33-personal-expense-aggregator"
+    },
+    {
+      "repo": "titan-agent-34-supply-chain-visibility",
+      "name": "Supply Chain Visibility",
+      "desc": "End-to-end supply chain tracking across Fivetran-connected sources.",
+      "url": "https://github.com/juliushill42/titan-agent-34-supply-chain-visibility"
+    },
+    {
+      "repo": "titan-agent-35-elearning-progress-synchronizer",
+      "name": "Elearning Progress Synchronizer",
+      "desc": "Syncs learner progress across LMS platforms via Fivetran.",
+      "url": "https://github.com/juliushill42/titan-agent-35-elearning-progress-synchronizer"
+    },
+    {
+      "repo": "titan-agent-36-saas-usage-optimizer",
+      "name": "SaaS Usage Optimizer",
+      "desc": "Analyzes SaaS license utilization and recommends cost optimizations.",
+      "url": "https://github.com/juliushill42/titan-agent-36-saas-usage-optimizer"
+    },
+    {
+      "repo": "titanu-a04-fivetran-throughput-throttler",
+      "name": "Fivetran Throughput Throttler",
+      "desc": "Auto-throttles Fivetran pipelines to prevent SLA breaches.",
+      "url": "https://github.com/juliushill42/titanu-a04-fivetran-throughput-throttler"
+    },
+    {
+      "repo": "titanu-a08-secure-pipeline-gatekeeper",
+      "name": "Secure Pipeline Gatekeeper",
+      "desc": "Security and compliance gate for Fivetran pipeline executions.",
+      "url": "https://github.com/juliushill42/titanu-a08-secure-pipeline-gatekeeper"
+    },
+    {
+      "repo": "titanu-a14-fivetran-cost-optimizer",
+      "name": "Fivetran Cost Optimizer",
+      "desc": "Analyzes MAR usage, recommends schedule optimizations to cut costs.",
+      "url": "https://github.com/juliushill42/titanu-a14-fivetran-cost-optimizer"
+    },
+    {
+      "repo": "titanu-a24-fivetran-schema-sentinel",
+      "name": "Fivetran Schema Sentinel",
+      "desc": "Monitors connector schemas for drift, alerts on breaking changes.",
+      "url": "https://github.com/juliushill42/titanu-a24-fivetran-schema-sentinel"
+    }
+  ],
+  "gitlab": [
+    {
+      "repo": "titan-agent-37-autonomous-sprint-velocity",
+      "name": "Autonomous Sprint Velocity",
+      "desc": "Computes velocity, flags blockers, auto-reassigns, generates retros.",
+      "url": "https://github.com/juliushill42/titan-agent-37-autonomous-sprint-velocity"
+    },
+    {
+      "repo": "titan-agent-38-code-quality-guardian",
+      "name": "Code Quality Guardian",
+      "desc": "Continuous code quality scoring and technical debt tracking.",
+      "url": "https://github.com/juliushill42/titan-agent-38-code-quality-guardian"
+    },
+    {
+      "repo": "titan-agent-39-security-vulnerability-hunter",
+      "name": "Security Vulnerability Hunter",
+      "desc": "Scans GitLab repos for CVEs, secrets, dependency vulnerabilities.",
+      "url": "https://github.com/juliushill42/titan-agent-39-security-vulnerability-hunter"
+    },
+    {
+      "repo": "titan-agent-40-documentation-sync-agent",
+      "name": "Documentation Sync Agent",
+      "desc": "Keeps docs in sync with code changes, auto-generates missing docs.",
+      "url": "https://github.com/juliushill42/titan-agent-40-documentation-sync-agent"
+    },
+    {
+      "repo": "titan-agent-41-ci-cd-failure-autofixer",
+      "name": "CI/CD Failure Autofixer",
+      "desc": "Diagnoses pipeline failures and applies automated fixes.",
+      "url": "https://github.com/juliushill42/titan-agent-41-ci-cd-failure-autofixer"
+    },
+    {
+      "repo": "titan-agent-42-open-source-contribution-assistant",
+      "name": "Open Source Contribution Assistant",
+      "desc": "Suggests and automates open source contributions from your codebase.",
+      "url": "https://github.com/juliushill42/titan-agent-42-open-source-contribution-assistant"
+    },
+    {
+      "repo": "titan-agent-43-agile-retrospective-generator",
+      "name": "Agile Retrospective Generator",
+      "desc": "Generates data-driven retrospectives from sprint metrics.",
+      "url": "https://github.com/juliushill42/titan-agent-43-agile-retrospective-generator"
+    },
+    {
+      "repo": "titan-agent-44-monorepo-dependency-manager",
+      "name": "Monorepo Dependency Manager",
+      "desc": "Manages cross-package dependencies in GitLab monorepos.",
+      "url": "https://github.com/juliushill42/titan-agent-44-monorepo-dependency-manager"
+    },
+    {
+      "repo": "titan-agent-45-release-train-conductor",
+      "name": "Release Train Conductor",
+      "desc": "Orchestrates multi-team release trains with automated coordination.",
+      "url": "https://github.com/juliushill42/titan-agent-45-release-train-conductor"
+    },
+    {
+      "repo": "titan-agent-46-developer-onboarding-buddy",
+      "name": "Developer Onboarding Buddy",
+      "desc": "Guides new devs through codebase, standards, and first PRs.",
+      "url": "https://github.com/juliushill42/titan-agent-46-developer-onboarding-buddy"
+    },
+    {
+      "repo": "titan-agent-47-bug-triaging-prioritizer",
+      "name": "Bug Triaging Prioritizer",
+      "desc": "AI-scores and prioritizes bugs by severity, impact, and effort.",
+      "url": "https://github.com/juliushill42/titan-agent-47-bug-triaging-prioritizer"
+    },
+    {
+      "repo": "titan-agent-48-compliance-audit-trail",
+      "name": "Compliance Audit Trail",
+      "desc": "Maintains tamper-evident audit trails for GitLab compliance.",
+      "url": "https://github.com/juliushill42/titan-agent-48-compliance-audit-trail"
+    },
+    {
+      "repo": "titanu-a03-gitlab-vulnerability-scanner",
+      "name": "GitLab Vulnerability Scanner",
+      "desc": "Autonomous CVE and secret scanning across GitLab projects.",
+      "url": "https://github.com/juliushill42/titanu-a03-gitlab-vulnerability-scanner"
+    },
+    {
+      "repo": "titanu-a13-gitlab-dependency-automator",
+      "name": "GitLab Dependency Automator",
+      "desc": "Auto-updates dependencies, opens MRs with changelog summaries.",
+      "url": "https://github.com/juliushill42/titanu-a13-gitlab-dependency-automator"
+    },
+    {
+      "repo": "titanu-a23-gitlab-automated-release-tagger",
+      "name": "GitLab Automated Release Tagger",
+      "desc": "Tags releases via conventional commits and semantic versioning.",
+      "url": "https://github.com/juliushill42/titanu-a23-gitlab-automated-release-tagger"
+    }
+  ],
+  "mongodb": [
+    {
+      "repo": "titan-agent-49-personal-knowledge-base",
+      "name": "Personal Knowledge Base",
+      "desc": "MongoDB Atlas vector search for notes, summaries, concept linking.",
+      "url": "https://github.com/juliushill42/titan-agent-49-personal-knowledge-base"
+    },
+    {
+      "repo": "titan-agent-50-dynamic-ecommerce-recommendation",
+      "name": "Dynamic Ecommerce Recommendation",
+      "desc": "Real-time product recommendations via MongoDB vector similarity.",
+      "url": "https://github.com/juliushill42/titan-agent-50-dynamic-ecommerce-recommendation"
+    },
+    {
+      "repo": "titan-agent-51-clinical-decision-support",
+      "name": "Clinical Decision Support",
+      "desc": "Evidence-based clinical decision support from MongoDB medical KB.",
+      "url": "https://github.com/juliushill42/titan-agent-51-clinical-decision-support"
+    },
+    {
+      "repo": "titan-agent-52-smart-inventory-forecaster",
+      "name": "Smart Inventory Forecaster",
+      "desc": "ML-based inventory forecasting from MongoDB transaction history.",
+      "url": "https://github.com/juliushill42/titan-agent-52-smart-inventory-forecaster"
+    },
+    {
+      "repo": "titan-agent-53-event-planning-copilot",
+      "name": "Event Planning CoPilot",
+      "desc": "End-to-end event planning automation with MongoDB state management.",
+      "url": "https://github.com/juliushill42/titan-agent-53-event-planning-copilot"
+    },
+    {
+      "repo": "titan-agent-54-resume-talent-matching",
+      "name": "Resume Talent Matching",
+      "desc": "Vector-matches resumes to job requirements via MongoDB Atlas.",
+      "url": "https://github.com/juliushill42/titan-agent-54-resume-talent-matching"
+    },
+    {
+      "repo": "titan-agent-55-recipe-grocery-optimizer",
+      "name": "Recipe Grocery Optimizer",
+      "desc": "Optimizes grocery lists from recipes using MongoDB ingredient graph.",
+      "url": "https://github.com/juliushill42/titan-agent-55-recipe-grocery-optimizer"
+    },
+    {
+      "repo": "titan-agent-56-iot-device-fleet-manager",
+      "name": "IoT Device Fleet Manager",
+      "desc": "Manages IoT device telemetry and commands via MongoDB time series.",
+      "url": "https://github.com/juliushill42/titan-agent-56-iot-device-fleet-manager"
+    },
+    {
+      "repo": "titan-agent-57-legal-case-management",
+      "name": "Legal Case Management",
+      "desc": "Tracks legal cases, deadlines, documents in MongoDB.",
+      "url": "https://github.com/juliushill42/titan-agent-57-legal-case-management"
+    },
+    {
+      "repo": "titan-agent-58-fitness-progress-tracker",
+      "name": "Fitness Progress Tracker",
+      "desc": "Tracks and analyzes fitness progress over time in MongoDB.",
+      "url": "https://github.com/juliushill42/titan-agent-58-fitness-progress-tracker"
+    },
+    {
+      "repo": "titan-agent-59-travel-itinerary-builder",
+      "name": "Travel Itinerary Builder",
+      "desc": "Builds personalized travel itineraries from MongoDB destination KB.",
+      "url": "https://github.com/juliushill42/titan-agent-59-travel-itinerary-builder"
+    },
+    {
+      "repo": "titan-agent-60-research-paper-summarizer",
+      "name": "Research Paper Summarizer",
+      "desc": "Summarizes and indexes research papers with MongoDB vector search.",
+      "url": "https://github.com/juliushill42/titan-agent-60-research-paper-summarizer"
+    },
+    {
+      "repo": "titanu-a02-mongo-vector-sync",
+      "name": "MongoDB Vector Sync",
+      "desc": "Syncs collections with vector embeddings for semantic search.",
+      "url": "https://github.com/juliushill42/titanu-a02-mongo-vector-sync"
+    },
+    {
+      "repo": "titanu-a12-mongo-ledger-auditor",
+      "name": "MongoDB Ledger Auditor",
+      "desc": "Audits transaction ledgers for anomalies and compliance violations.",
+      "url": "https://github.com/juliushill42/titanu-a12-mongo-ledger-auditor"
+    },
+    {
+      "repo": "titanu-a19-deadlock-resolver-daemon",
+      "name": "MongoDB Deadlock Resolver",
+      "desc": "Detects and auto-resolves MongoDB deadlocks and session conflicts.",
+      "url": "https://github.com/juliushill42/titanu-a19-deadlock-resolver-daemon"
+    },
+    {
+      "repo": "titanu-a20-distributed-state-snapshot",
+      "name": "Distributed State Snapshot",
+      "desc": "Atomic distributed snapshots across MongoDB shards for DR.",
+      "url": "https://github.com/juliushill42/titanu-a20-distributed-state-snapshot"
+    },
+    {
+      "repo": "titanu-a22-mongo-crypto-key-rotator",
+      "name": "MongoDB Crypto Key Rotator",
+      "desc": "Zero-downtime encryption key rotation for MongoDB.",
+      "url": "https://github.com/juliushill42/titanu-a22-mongo-crypto-key-rotator"
+    },
+    {
+      "repo": "titanu-a28-secure-memory-scrubber",
+      "name": "Secure Memory Scrubber",
+      "desc": "PII scrubbing from MongoDB documents on retention policy.",
+      "url": "https://github.com/juliushill42/titanu-a28-secure-memory-scrubber"
+    }
+  ],
+  "dynatrace": [
+    {
+      "repo": "titan-agent-61-production-agent-sentinel",
+      "name": "Production Agent Sentinel",
+      "desc": "Polls all agents, detects anomalies, auto-restarts, pages oncall.",
+      "url": "https://github.com/juliushill42/titan-agent-61-production-agent-sentinel"
+    },
+    {
+      "repo": "titan-agent-62-application-performance-guardian",
+      "name": "Application Performance Guardian",
+      "desc": "Continuous APM monitoring with auto-remediation via Dynatrace.",
+      "url": "https://github.com/juliushill42/titan-agent-62-application-performance-guardian"
+    },
+    {
+      "repo": "titan-agent-63-cost-optimization-watchdog",
+      "name": "Cost Optimization Watchdog",
+      "desc": "Monitors cloud spend via Dynatrace, flags waste, rightsize recs.",
+      "url": "https://github.com/juliushill42/titan-agent-63-cost-optimization-watchdog"
+    },
+    {
+      "repo": "titan-agent-64-security-posture-agent",
+      "name": "Security Posture Agent",
+      "desc": "Continuous security posture monitoring and auto-hardening.",
+      "url": "https://github.com/juliushill42/titan-agent-64-security-posture-agent"
+    },
+    {
+      "repo": "titan-agent-65-multi-agent-orchestration-monitor",
+      "name": "Multi-Agent Orchestration Monitor",
+      "desc": "Monitors the full 100-agent fleet health via Dynatrace.",
+      "url": "https://github.com/juliushill42/titan-agent-65-multi-agent-orchestration-monitor"
+    },
+    {
+      "repo": "titan-agent-66-devops-pipeline-health",
+      "name": "DevOps Pipeline Health",
+      "desc": "Real-time DevOps pipeline health tracking with Dynatrace signals.",
+      "url": "https://github.com/juliushill42/titan-agent-66-devops-pipeline-health"
+    },
+    {
+      "repo": "titan-agent-67-user-experience-quality",
+      "name": "User Experience Quality",
+      "desc": "Synthetic + real-user monitoring for UX quality via Dynatrace.",
+      "url": "https://github.com/juliushill42/titan-agent-67-user-experience-quality"
+    },
+    {
+      "repo": "titan-agent-68-ai-workload-balancer",
+      "name": "AI Workload Balancer",
+      "desc": "Balances AI inference workloads using Dynatrace resource metrics.",
+      "url": "https://github.com/juliushill42/titan-agent-68-ai-workload-balancer"
+    },
+    {
+      "repo": "titan-agent-69-incident-response-automator",
+      "name": "Incident Response Automator",
+      "desc": "End-to-end incident response automation from Dynatrace alerts.",
+      "url": "https://github.com/juliushill42/titan-agent-69-incident-response-automator"
+    },
+    {
+      "repo": "titan-agent-70-sustainability-efficiency-auditor",
+      "name": "Sustainability Efficiency Auditor",
+      "desc": "Carbon footprint, rightsizing, ESG reporting via Dynatrace.",
+      "url": "https://github.com/juliushill42/titan-agent-70-sustainability-efficiency-auditor"
+    },
+    {
+      "repo": "titanu-a05-dynatrace-circuit-breaker",
+      "name": "Dynatrace Circuit Breaker",
+      "desc": "Circuit breaker pattern using Dynatrace metrics to isolate failures.",
+      "url": "https://github.com/juliushill42/titanu-a05-dynatrace-circuit-breaker"
+    },
+    {
+      "repo": "titanu-a09-topology-mesh-discoverer",
+      "name": "Topology Mesh Discoverer",
+      "desc": "Discovers service topology from Dynatrace SmartScape API.",
+      "url": "https://github.com/juliushill42/titanu-a09-topology-mesh-discoverer"
+    },
+    {
+      "repo": "titanu-a15-dynatrace-log-correlator",
+      "name": "Dynatrace Log Correlator",
+      "desc": "Correlates logs across services to surface root cause chains.",
+      "url": "https://github.com/juliushill42/titanu-a15-dynatrace-log-correlator"
+    },
+    {
+      "repo": "titanu-a17-local-failover-mesh-manager",
+      "name": "Local Failover Mesh Manager",
+      "desc": "Failover routing using Dynatrace health signals.",
+      "url": "https://github.com/juliushill42/titanu-a17-local-failover-mesh-manager"
+    },
+    {
+      "repo": "titanu-a25-dynatrace-cpu-throttler",
+      "name": "Dynatrace CPU Throttler",
+      "desc": "Throttles CPU-intensive services detected by Dynatrace.",
+      "url": "https://github.com/juliushill42/titanu-a25-dynatrace-cpu-throttler"
+    },
+    {
+      "repo": "titanu-a27-edge-mesh-heartbeat",
+      "name": "Edge Mesh Heartbeat",
+      "desc": "Heartbeat monitoring across edge mesh via Dynatrace synthetic.",
+      "url": "https://github.com/juliushill42/titanu-a27-edge-mesh-heartbeat"
+    },
+    {
+      "repo": "titanu-a30-titan-network-status-dashboard",
+      "name": "Titan Network Status Dashboard",
+      "desc": "Real-time network status aggregated into Dynatrace dashboard.",
+      "url": "https://github.com/juliushill42/titanu-a30-titan-network-status-dashboard"
+    }
+  ],
+  "cross-track": [
+    {
+      "repo": "titanu-a07-cross-track-webhook-bridge",
+      "name": "Cross-Track Webhook Bridge",
+      "desc": "Routes webhooks across all 6 partner tracks based on payload rules.",
+      "url": "https://github.com/juliushill42/titanu-a07-cross-track-webhook-bridge"
+    }
+  ]
+}
